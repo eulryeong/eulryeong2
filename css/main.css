@@ -1,5 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.eul-noto {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cute-ryeong {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.cute-eul {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .logo-ballet-daeul {
   font-family: "Ballet", cursive;
@@ -25,7 +46,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #34b7a7;
+  --accent-color: #ff9900;
   --accent-color-eul: #ffac07; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -165,11 +186,11 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 32px;
+  font-size: 38px;
   margin: 0;
   font-weight: 300;
   /* text-transform: uppercase; */
-  color: var(--heading-color);
+  color: rgb(43, 23, 18);
 }
 
 .header .header-social-links {
@@ -687,9 +708,21 @@ section,
 }
 
 .section-title p {
+  font-size: 20px;
   margin-bottom: 0;
 }
 
+.footer-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.footer-con {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
